@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manipulación del DOM</title>
+    </head>
+
+    <body>
+        <h1 id="miTitulo">¡Hola, Mundo!</h1>
+        <button onclick="cambiarTexto()">Cambiar Titulo</button>
+        <script>
+            function cambiarTexto() {
+                document.getElementById('miTitulo').innerHTML = 'Titulo Cambiado!';
+            }
+        </script>
+    </body>
+</html>

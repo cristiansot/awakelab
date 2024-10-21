@@ -1,4 +1,4 @@
-##NURSING HOSPITAL
+# NURSING HOSPITAL
 
 Surge de la necesidad del cliente de contar con un sitio web responsivo que ofrezca una estructura de navegación semántica ordenada. Esto permitirá una mejor adaptabilidad a distintos dispositivos, facilitará la visibilidad en los motores de búsqueda y garantizará una experiencia de usuario fácil de comprender.
 
@@ -14,6 +14,6 @@ La página equipo médico muestra de manera ordenada una lista de profesionales,
 
 En la sección de contacto se incluyó un formulario simple y conciso. Es importante destacar que todos los enlaces del sitio web están en funcionamiento, y en el pie de página se ha agregado un mapa con un ícono personalizado.
 
-Créditos:
+## Créditos:
 
 Los iconos y el logotipo fueron descargados en formato .ai desde un sitio web de recursos gráficos, mediante illustrator se modificaron textos y colores para tener homogeneidad. Las fotografías fueron descargadas desde el Hospital del Profesor, mediante photoshop fueron eliminados los nombres en la solapa, se crearon nombres ficticios para cada profesional. La imagen del mapa es un pantallazo desde google maps, con photoshop se desaturo el color y se colocó al icono.

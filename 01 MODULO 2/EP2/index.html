@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nursing Hospital</title>
-    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/main.css">
 </head>
 <body>
     <header class="header">
@@ -21,56 +21,62 @@
           </nav>
     </header>
 
-    <section>
+    <section class="quienes">
         <h1>Quiénes Somos</h1>
         <p>Nursing Hospital es la red de atención médica más importante del país con un amplio campo clínico en el que se forman los médicos del mañana.</p>
-        <article>
-            <h2>Misión</h2>
-            <p>Nuestra Misión es entregar a la persona y a su familia una Atención de Salud Integral 
-                y de calidad que contribuya a su bienestar, respetando su dignidad, por equipos de gran 
-                calidad humana y excelencia profesional y académica.</p>
-        </article>
-        <article>
-            <h2>Visión</h2>
-            <p>Ser la Red de Salud líder en Latinoamérica en la práctica clínica de excelencia y en el desarrollo
-                de conocimientos para el cuidado de la persona, en colaboración con otras instituciones nacionales 
-                y extranjeras.</p>
+        
+        <div class="quienes__mision__vision">
+            <article class="quienes__mision">
+                <h2>Misión</h2>
+                <p>Nuestra Misión es entregar a la persona y a su familia una Atención de Salud Integral 
+                    y de calidad que contribuya a su bienestar, respetando su dignidad, por equipos de gran 
+                    calidad humana y excelencia profesional y académica.</p>
             </article>
+            <article class="quienes__vision">
+                <h2>Visión</h2>
+                <p>Ser la Red de Salud líder en Latinoamérica en la práctica clínica de excelencia y en el desarrollo
+                    de conocimientos para el cuidado de la persona, en colaboración con otras instituciones nacionales 
+                    y extranjeras.</p>
+            </article>
+        </div>
+        
     </section>
 
-    <section>
+    <section class="servicios">
         <h1>Servicios</h1>
-        <div>
-            <h2>Cardiología</h2>
-            <img src="src/img/corazon.png" alt="isotipo de un corazón">
-            <P>La cardiología es la especialidad médica que se enfoca en el diagnóstico y tratamiento de enfermedades 
-                del corazón y el sistema cardiovascular.</P>
-        </div>
-        <div>
-            <h2>Gastroenterología</h2>
-            <img src="src/img/estomago.png" alt="isotipo de un estómago">
-            <p>La gastroenterología es la especialidad médica que se ocupa del diagnóstico y tratamiento de las enfermedades 
-                del sistema digestivo, que incluye el esófago, estómago, intestinos, hígado y páncreas.</p>
-        </div>
-        <div>
-            <h2>Salud Mental</h2>
-            <img src="src/img/cerebro.png" alt="isotipo de un cerebro">
-            <p>La salud mental se refiere al bienestar emocional, psicológico y social de una persona. Afecta cómo pensamos, 
-                sentimos y actuamos, e influye en cómo manejamos el estrés, nos relacionamos con los demás y tomamos decisiones.</p>
+        <div class="servicios__content">
+            <div class="servicios__card">
+                <h2>Cardiología</h2>
+                <img class="servicios__img" src="src/img/corazon.png" alt="isotipo de un corazón">
+                <P>La cardiología es la especialidad médica que se enfoca en el diagnóstico y tratamiento de enfermedades 
+                    del corazón y el sistema cardiovascular.</P>
+            </div>
+            <div class="servicios__card">
+                <h2>Gastroenterología</h2>
+                <img class="servicios__img" src="src/img/estomago.png" alt="isotipo de un estómago">
+                <p>La gastroenterología es la especialidad médica que se ocupa del diagnóstico y tratamiento de las enfermedades 
+                    del sistema digestivo, que incluye el esófago, estómago, intestinos, hígado y páncreas.</p>
+            </div>
+            <div class="servicios__card">
+                <h2>Salud Mental</h2>
+                <img class="servicios__img" src="src/img/cerebro.png" alt="isotipo de un cerebro">
+                <p>La salud mental se refiere al bienestar emocional, psicológico y social de una persona. Afecta cómo pensamos, 
+                    sentimos y actuamos, e influye en cómo manejamos el estrés, nos relacionamos con los demás y tomamos decisiones.</p>
+            </div>
         </div>
     </section>
 
-    <section>
+    <section class="testimonios">
         <h1>Testimonios</h1>
-        <div>
-            <p>"Siempre pensé que podía superar el estrés solo, pero llegó un punto en que ya no podía seguir. 
+        <div class="testimonios__content">
+            <p class="testimonios__uno">"Siempre pensé que podía superar el estrés solo, pero llegó un punto en que ya no podía seguir. 
                 La terapia me ayudó a desarrollar herramientas para manejar el estrés y la presión. Ahora, 
                 en lugar de sentirme abrumada, tengo un plan y sé cómo cuidar de mi salud mental." — María, 42 años.</p>
-            <p>"Después de ser diagnosticado con una arritmia cardíaca, me sentía asustado y confundido. Mi cardiólogo no 
+            <p class="testimonios__dos">"Después de ser diagnosticado con una arritmia cardíaca, me sentía asustado y confundido. Mi cardiólogo no 
                 solo me explicó el tratamiento de manera clara, sino que me guió paso a paso en el proceso. Gracias a su 
                 atención y a los cuidados que recibí, hoy me siento mucho más seguro y mi calidad de vida ha mejorado 
                 significativamente." — Juan, 54 años.</p>
-            <p>"Durante años sufrí de problemas digestivos sin saber qué los causaba. Después de consultar a un gastroenterólogo 
+            <p class="testimonios__tres">"Durante años sufrí de problemas digestivos sin saber qué los causaba. Después de consultar a un gastroenterólogo 
                 y hacerme las pruebas necesarias, me diagnosticaron con síndrome del intestino irritable. Gracias al tratamiento 
                 y a los cambios en mi dieta que me recomendó, finalmente puedo vivir sin dolor constante y entender mejor cómo 
                 cuidar mi salud digestiva." — Carolina, 37 años.</p>
@@ -78,18 +84,25 @@
     </section>
 
     <footer>
-        <h1>Ubicación</h1>
-        <img src="src/img/ubicacion.png" alt="mapa de ubicacion del hospital">
-        <div>
-            <h2>Redes Sociales</h2>
-            <img src="src/img/sm_01.png" alt="icono de facebook">
-            <img src="src/img/sm_02.png" alt="icono de X">
-            <img src="src/img/sm_03.png" alt="icono de instagram">
+        <div class="footer__content">
+            <h1>Ubicación</h1>
+            <img class="footer__map" src="src/img/ubicacion.png" alt="mapa de ubicacion del hospital">
         </div>
-        <div>
+        <div class="footer__social">
+            <h2>Redes Sociales</h2>
+            <div class="footer__icons">
+                <img class="footer__img" src="src/img/sm_01.png" alt="icono de facebook">
+                <img class="footer__img" src="src/img/sm_02.png" alt="icono de X">
+                <img class="footer__img" src="src/img/sm_03.png" alt="icono de instagram">
+            </div>
+        </div>
+        <div class="footer__phones">
             <h2>Teléfonos</h2>
-            <h3>Casa Central: 2 2220 3939</h3>
-            <h3>Mesa de Ayuda: 2 2220 3737</h3>
+            <div class="footer__numbers">
+                <h3>Casa Central: 2 2220 3939</h3>
+                <h3>Mesa de Ayuda: 2 2220 3737</h3>
+            </div>
+            
         </div>
     </footer>
 </body>

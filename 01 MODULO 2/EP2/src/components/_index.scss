@@ -37,6 +37,35 @@ p {
 
 // Index Section //
 
+.quienes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.quienes__text {
+    padding: 10px;
+    margin: 10px;
+}
+
+.quienes__mision__vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    padding: 10px;
+    margin: 10px;
+    margin-top: -20px;
+}
+
+.quienes__mision {
+    margin: 20px;
+}
+
+.quienes__vision {
+    margin: 20px;
+}
+
 .servicios {
     display: flex;
     flex-direction: column;
@@ -60,6 +89,18 @@ p {
 
 .servicios__img {
     width: 60%;
+}
+
+.testimonios__content {
+   margin: 30px;
+   padding: 20px;
+}
+
+.testimonios__content p {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #777777;
 }
 
 @media screen and (max-width: 1024px) {

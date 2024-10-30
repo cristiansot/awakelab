@@ -180,10 +180,47 @@ p {
   .navbar__button {
     margin: 0;
   }
-  .servicios__content {
-    grid-template-columns: 1fr;
-  }
 }
+.resumen {
+  display: flex;
+  margin: 30px;
+  margin-top: 0px;
+  padding: 40px;
+}
+
+.equipo__titulo {
+  margin-top: -40px;
+}
+
+.equipo__medico {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  margin-top: 40px;
+}
+
+.equipo__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.equipo__card img {
+  max-width: 80%;
+  border-radius: 20px;
+}
+
+.equipo__profesion {
+  margin-top: -15px;
+}
+
+.equipo__contenido {
+  padding: 40px;
+  margin: 20px;
+  margin-top: -30px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -209,7 +246,7 @@ footer {
 
 .footer__img {
   width: 70px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .footer__phones {

@@ -34,4 +34,36 @@
     .navbar__button {
         margin: 0;
     }
+
+    .equipo__medico {
+      grid-template-columns: 1fr;
+    }
+
+    .quienes__mision__vision {
+      grid-template-columns: 1fr;
+    }
+
+    .servicios__content {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      justify-items: center;
+    } 
+
+    .footer__numbers {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .footer__numbers h3 {
+      margin: 4px 0;
+    }
+    .formulario {
+      margin-left: -40px;
+   }
+
+    .formulario__input {
+      width: 300px;
+    }
   }

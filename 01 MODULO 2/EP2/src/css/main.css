@@ -89,12 +89,13 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .quienes__text {
-  padding: 10px;
+  padding: 30px;
   margin: 10px;
+  margin-top: -20px;
 }
 
 .quienes__mision__vision {
@@ -132,11 +133,12 @@ p {
 .servicios__card {
   border: 1px solid #d2d2d2;
   border-radius: 30px;
+  width: 90%;
   background-color: #f9f9f9;
 }
 
 .servicios__img {
-  width: 60%;
+  width: 50%;
 }
 
 .testimonios__content {
@@ -151,36 +153,6 @@ p {
   color: #777777;
 }
 
-@media screen and (max-width: 1024px) {
-  .servicios__content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-  .servicios__content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 480px) {
-  .header {
-    position: relative;
-  }
-  .navbar {
-    margin: 0;
-    line-height: 2px;
-  }
-  .navbar ul {
-    flex-direction: column;
-    width: 50vw;
-  }
-  .navbar__button {
-    margin: 0;
-  }
-}
 .resumen {
   display: flex;
   margin: 30px;
@@ -261,4 +233,35 @@ footer {
   gap: 20px;
   text-align: center;
   margin-top: -18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .servicios__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .servicios__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    position: relative;
+  }
+  .navbar {
+    margin: 0;
+    line-height: 2px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    width: 50vw;
+  }
+  .navbar__button {
+    margin: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,37 @@
+@media screen and (max-width: 1024px) {
+    .servicios__content {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (max-width: 768px) { 
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicios__content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+
+    .header {
+        position: relative;
+    }
+
+    .navbar {
+        margin: 0;
+        line-height: 2px
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .navbar__button {
+        margin: 0;
+    }
+  }

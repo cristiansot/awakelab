@@ -1,0 +1,12 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.formulario__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

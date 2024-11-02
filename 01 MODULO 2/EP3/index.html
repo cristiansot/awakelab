@@ -9,19 +9,35 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src="src/img/logotipo.png" alt="lgototipo Nursing Hospital">
-          </a>
-        <nav class="navbar">
-            <ul>
-              <li><a class="navbar__link" href="index.html">Inicio</a></li>
-              <li><a class="navbar__link" href="equipo.html">Equipo Médico</a></li>
-              <li><a class="navbar__link" href="contacto.html">Contacto</a></li>
-              <input class="navbar__button" type="button" value="Reservar Cita" />
-            </ul>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img class="header__logo" src="src/img/logotipo.png" alt="lgototipo Nursing Hospital">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Reservar Cita</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
 
-          
     </header>
 
     <section class="quienes">

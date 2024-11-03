@@ -6,11 +6,11 @@
     display: flex;
     position: sticky;
     top: 0;
+    z-index: 1;
     justify-content: center;
     background-color: rgb(239, 239, 239);
     align-items: center;
     padding: 10px;
-    margin: 0;
 }
 
 .header__logo {
@@ -22,33 +22,15 @@
     font-weight: 300;
     font-style: normal;
     font-size: 1.2rem;
-    margin-top: 20px;
-    margin-left: 100px;
 }
 
 .navbar ul {
     align-content: space-around;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
+    margin-top: 24px;
     padding: 14px;
-}
-
-.navbar__button {
-    background-color: #13628f;
-    border: none;
-    color: white;
-    padding: 12px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    margin-left:40px; 
-}
-
-.navbar__button:hover {
-    background-color: #ff2a6b;
-    transition: 0.3s;
+    margin-left: 20px;
 }

@@ -1,106 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
-body {
-    width: 100%;
-    font-family: "Kantumruy Pro", sans-serif;
-    font-optical-sizing: auto;
-    color: #13628f;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    font-weight: 500;
-    font-size: 1.8rem;
-    text-align: center;
-}
-
-h2 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 1.3rem;
-}
-
-p {
-    margin: 10px;
-    font-weight: 400;
-    color: #5a5959;
-    font-size: 1rem;
-    text-align: center;
-}
-
-// Index Section //
-
 .quienes {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.quienes__title,
+.servicios__title,
+.testimonios__title,
+.contacto__title,
+.ubicacion__title,
+.redes__title,
+.telefonos__title {
+  color: #13628f;
+  font: {
+    font-family: "Kantumruy Pro", sans-serif;
+    weight: 200;
+    size: 2.2em;
+  }
 }
 
 .quienes__text {
-    padding: 30px;
+  padding: 30px;
+  margin: 0px;
+}
+
+.mision__vision--title {
+  color: #13628f;
+  font: {
+    font-family: "Kantumruy Pro", sans-serif;
+    weight: 200;
+    size: 2rem;
+  }
+}
+
+p {
+  color: #5a5959;
+
+  font: {
+    font-family: "Kantumruy Pro", sans-serif;
+    size: 1em;
     margin: 10px;
-    margin-top: -20px;
-}
-
-.quienes__mision__vision {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px; 
-    padding: 10px;
-    margin: 10px;
-    margin-top: -20px;
-}
-
-.quienes__mision {
-    margin: 20px;
-}
-
-.quienes__vision {
-    margin: 20px;
+    weight: 100;
+  }
 }
 
 .servicios {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.servicios__content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 20px; 
-    margin: 0;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .servicios__card {
-    border: 1px solid #d2d2d2;
-    border-radius: 30px;
-    width: 90%;
-    background-color: #f9f9f9;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: auto;
+  height: 480px !important;
 }
 
 .servicios__img {
-    width: 50%;
+  width: 240px;
 }
 
+.testimonios {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.testimonio__img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
 .testimonios__content {
-   margin: 30px;
-   padding: 20px;
+  margin: 30px;
+  padding: 20px;
 }
 
 .testimonios__content p {
-    font-style: italic;
-    font-size: 1.1rem;
-    line-height: 1.5;
-    color: #777777;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #777777;
 }

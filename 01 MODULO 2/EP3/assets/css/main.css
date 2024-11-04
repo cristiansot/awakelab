@@ -7,6 +7,19 @@ p {
   font-weight: 100;
 }
 
+h4 {
+  color: #d7d7d7;
+  font-font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1em;
+  font-margin: 10px;
+  font-weight: 100;
+}
+
+.header__button:hover {
+  background: #13628f !important;
+  border-color: #13628f !important;
+}
+
 .header {
   display: flex;
   position: sticky;
@@ -188,9 +201,18 @@ ul {
   border-radius: 10px;
 }
 
+.footer {
+  align-items: center;
+}
+
 .footer__map {
   width: 100%;
   height: auto;
+}
+
+.footer__logo {
+  width: 250px;
+  align-items: center;
 }
 
 .footer__img {
@@ -200,61 +222,28 @@ ul {
 
 .footer__phones {
   justify-content: center;
+  margin-top: 40px !important;
 }
 
-@media screen and (max-width: 1024px) {
-  .servicios__content {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.footer__phones__content {
+  margin-top: -28px !important;
 }
+
 @media screen and (max-width: 768px) {
-  .header {
-    display: flex;
-    flex-direction: column;
+  .footer__phones {
+    justify-content: center;
+    margin-top: 0px !important;
   }
-  .servicios__content {
-    grid-template-columns: repeat(2, 1fr);
+  .footer__logo {
+    margin-top: 30px !important;
   }
 }
 @media screen and (max-width: 480px) {
-  .header {
-    position: relative;
-  }
-  .navbar {
-    margin: 0;
-    line-height: 2px;
-  }
-  .navbar ul {
-    flex-direction: column;
-    width: 50vw;
-  }
-  .navbar__button {
-    margin: 0;
-  }
-  .equipo__medico {
-    grid-template-columns: 1fr;
-  }
-  .quienes__mision__vision {
-    grid-template-columns: 1fr;
-  }
-  .servicios__content {
-    display: grid;
-    grid-template-columns: 1fr;
+  .footer__phones {
     justify-content: center;
-    justify-items: center;
+    margin-top: 0px !important;
   }
-  .footer__numbers {
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .footer__numbers h3 {
-    margin: 4px 0;
-  }
-  .formulario {
-    margin-left: -40px;
-  }
-  .formulario__input {
-    width: 300px;
+  .footer__logo {
+    margin-top: 30px !important;
   }
 }/*# sourceMappingURL=main.css.map */

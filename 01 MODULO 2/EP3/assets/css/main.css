@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+p {
+  color: #5a5959;
+  font-font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1em;
+  font-margin: 10px;
+  font-weight: 100;
+}
+
 .header {
   display: flex;
   position: sticky;
@@ -59,14 +67,6 @@
   font-font-family: "Kantumruy Pro", sans-serif;
   font-weight: 200;
   font-size: 2rem;
-}
-
-p {
-  color: #5a5959;
-  font-font-family: "Kantumruy Pro", sans-serif;
-  font-size: 1em;
-  font-margin: 10px;
-  font-weight: 100;
 }
 
 .servicios {

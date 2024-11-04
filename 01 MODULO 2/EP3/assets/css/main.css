@@ -32,10 +32,6 @@
   margin-left: 20px;
 }
 
-.quienes {
-  margin-top: 20px;
-}
-
 .quienes__title,
 .servicios__title,
 .testimonios__title,
@@ -47,6 +43,10 @@
   font-font-family: "Kantumruy Pro", sans-serif;
   font-weight: 200;
   font-size: 2.2em;
+}
+
+.quienes {
+  margin-top: 20px;
 }
 
 .quienes__text {

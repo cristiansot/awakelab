@@ -12,7 +12,7 @@ La estructura de los archivos Sass sigue el patrón 7-1, una metodología que or
 
 Se integró un mixin llamado `title` en `_mixins.scss` para estilizar de manera consistente varios títulos en el sitio web. El mixin establece una fuente y color específicos, aplicándose a selectores como `.quienes__title`, `.servicios__title`, etc. Esto facilita el mantenimiento de los estilos de título en una sola ubicación.
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## Metodología BEM
 

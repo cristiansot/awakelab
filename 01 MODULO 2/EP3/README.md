@@ -6,31 +6,7 @@ Este proyecto es una página web para Nursing Hospital, diseñada para ser respo
 
 La estructura de los archivos Sass sigue el patrón 7-1, una metodología que organiza los estilos en diferentes directorios y archivos parciales para mejorar la organización y facilitar el mantenimiento. La estructura principal del sitio es la siguiente:
 
-sass/
-|
-|– base/
-|   |– _typography.scss       
-|
-|– components/
-|   |– _buttons.scss           
-|
-|– layout/
-|   |– _grid.scss              
-|   |– _header.scss           
-|   |– _footer.scss            
-|
-|– pages/
-|   |– _index.scss            
-|   |– _contacto.scss         
-|   |– _equipo.scss            
-|
-|– utils/
-|   |– _mixins.scss            
-|
-|– vendors/
-|   |– _jquery.scss            
-|
-`– main.scss                   
+![alt text](image.png) 
 
 ### Uso de Mixins
 

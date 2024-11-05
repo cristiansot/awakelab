@@ -13,6 +13,7 @@
 .contacto__title,
 .ubicacion__title,
 .redes__title,
-.telefonos__title {
+.telefonos__title,
+.equipo__titulo {
   @include title;
 }
